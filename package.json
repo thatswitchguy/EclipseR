@@ -5,12 +5,13 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dev": "electron . --enable-logging"
+    "dev": "electron . --enable-logging",
+    "postinstall": "node scripts/postinstall.js"
   },
   "keywords": ["browser", "electron", "chromium", "dns"],
   "author": "thatswitchguy",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^latest"
+    "electron": "27.0.0"
   }
 }
