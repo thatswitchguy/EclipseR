@@ -1,0 +1,16 @@
+{
+  "name": "eclipser",
+  "version": "1.0.0",
+  "description": "Full-featured web browser with DNS lookup, tab system, and interstellar UI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging"
+  },
+  "keywords": ["browser", "electron", "chromium", "dns"],
+  "author": "thatswitchguy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^latest"
+  }
+}
